@@ -8,7 +8,7 @@ import Card from './components/Card';
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='birthday-wish-generator'>
         <RecoilRoot>
           <Routes>
             <Route path='/' element={<Card />} />
